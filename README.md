@@ -25,7 +25,7 @@
 
 * 단비 계정 생성
   + 단비 웹사이트: [https://danbee.ai/](https://danbee.ai/)
-  + [단비 웹사이트 화면](danbi_01_website.png)
+  + <img src="danbi_01_website.png" width="800" height="289"></img>
 * 단비 계정 로그인
 * 단비 화면 둘러보기
 * 단비의 샘플 챗봇 사용해보기
