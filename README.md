@@ -28,8 +28,11 @@
   + 'danbee.AI 무료로 시작' 버튼을 눌러 계정 생성 (네이버, 구글 등 소셜미디어 계정으로 회원 가입할 것을 추천합니다.)
   + <img src="danbi_01_website.png" width="800" height="289" style="border:5px solid black"></img>
 * 단비 계정 로그인
+  + '오늘도 챗봇 키우기' 버튼을 눌러 로그인
   + <img src="danbi_02_login.png" width="500" height="276" style="border:5px solid black"></img>
 * 단비 화면 둘러보기
+  + 화면 좌촉에 세로로 여러 메뉴가 보이고, 우측 넓은 영역이 작업 영역입니다. 이 화면에는 제가 이미 만단 챗봇 몇 개가 함께 보입니다. 
+  + <img src="danbi_03_chatbotlist.png" width="1000" height="451" style="border:5px solid black"></img>
 * 단비의 샘플 챗봇 사용해보기
 
 ### 챗봇 제작
