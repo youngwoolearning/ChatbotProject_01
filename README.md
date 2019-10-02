@@ -23,11 +23,11 @@
 5. 대화 채널 중 Frogue 테스트 (URL열기)
 6. 대화목록 선택
 7. 첫 intent 생성
-  - 이름: greeting
-  - 버튼: 영어단어봇 인사 드림
-  - chatflow연결 후 대화흐름 생성 (greeting이라는 대화흐름chatflow가 자동적으로 생성됨)
+  1. 이름: greeting
+  2. 버튼: 영어단어봇 인사 드림
+  3. chatflow연결 후 대화흐름 생성 (greeting이라는 대화흐름chatflow가 자동적으로 생성됨)
 8. 첫 chatflow (greeting) 수정
 9. 기본 답변 중 Welcome Message의 연결 chatflow로 greeting 선택
 10. question_01 intent 및 question_01 chatflow 생성
-  - question_01 chatflow 세부 대화흐름 작성
-  - question_01 chatflow 파라미터 설정 및 세팅
+  * question_01 chatflow 세부 대화흐름 작성
+  * question_01 chatflow 파라미터 설정 및 세팅
