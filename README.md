@@ -28,7 +28,7 @@
   + 'danbee.AI 무료로 시작' 버튼을 눌러 계정 생성 (네이버, 구글 등 소셜미디어 계정으로 회원 가입할 것을 추천합니다.)
   + <img src="danbi_01_website.png" width="800" height="289" style="border:5px solid black"></img>
 * 단비 계정 로그인
-  + <img src="danbi_02_login.png" width="400" height="221" style="border:5px solid black"></img>
+  + <img src="danbi_02_login.png" width="500" height="276" style="border:5px solid black"></img>
 * 단비 화면 둘러보기
 * 단비의 샘플 챗봇 사용해보기
 
