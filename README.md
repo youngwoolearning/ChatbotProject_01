@@ -4,9 +4,9 @@
 ## 제작 단계
 
 ### 영어 단어 준비
-1. 영어 단어 목록 작성
-2. 각 단어의 자료 수집 및 정리
-3. 각 단어별 객관식 문제 제작
+* 영어 단어 목록 작성
+* 각 단어의 자료 수집 및 정리
+* 각 단어별 객관식 문제 제작
 
 
 ### 단비(챗봇빌더) 사용 준비
@@ -22,10 +22,10 @@
 4. 기본 답변 중 Welcome Message, Default Fallback 수정 및 테스트
 5. 대화 채널 중 Frogue 테스트 (URL열기)
 6. 대화목록 선택
-7. 첫 intent 생성
-  1. 이름: greeting
-  2. 버튼: 영어단어봇 인사 드림
-  3. chatflow연결 후 대화흐름 생성 (greeting이라는 대화흐름chatflow가 자동적으로 생성됨)
+* 첫 intent 생성
+ + 이름: greeting
+ + 버튼: 영어단어봇 인사 드림
+ + chatflow연결 후 대화흐름 생성 (greeting이라는 대화흐름chatflow가 자동적으로 생성됨)
 8. 첫 chatflow (greeting) 수정
 9. 기본 답변 중 Welcome Message의 연결 chatflow로 greeting 선택
 10. question_01 intent 및 question_01 chatflow 생성
