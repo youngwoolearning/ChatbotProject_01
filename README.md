@@ -4,11 +4,11 @@
 ## 제작 단계
 
 ### 영어 단어 준비
-* 영어 단어 목록 작성
+1. 영어 단어 목록 작성
   + 중학교 단어 (20개): treatment, drown, rope, breathe, lay, come around, hold on to, insect, try to, upward, pain, check for, injured, wrap, support, keep A from B, worse, aid, accident, bone (출처: 천재 중3 영어교과서, Lesson 9, The ABCs of First Aid) 
   + 고등학교 단어 (26개): host, harsh, immediately, signal, slight, mature, risky, region, measure, influence, instinct, inclined, consequence, identify, connection, experiment, instrument, strengthen, adolescent, period, merely, dismiss, phase, insignificant, stage, insight (출처: 능률 고1 영어교과서, Lesson 8, How Teens Make Decisions)
-* 각 단어의 자료 수집 및 정리
-* 각 단어별 객관식 문제 제작
+2. 각 단어의 자료 수집 및 정리
+3. 각 단어별 객관식 문제 제작
 
 ### 단비(챗봇빌더) 사용 준비
 
