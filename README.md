@@ -24,9 +24,11 @@
 ### 단비(챗봇빌더) 사용 준비
 
 * 단비 계정 생성
-  + 단비 웹사이트: [https://danbee.ai/](https://danbee.ai/)
+  + 단비 웹사이트: [https://danbee.ai/](https://danbee.ai/) 'danbee.AI 무료로 시작' 버튼을 눌러 계정 생성
   + <img src="danbi_01_website.png" width="800" height="289" style="border:5px solid black"></img>
+  + <img src="danbi_02_signup.png" width="600" height="530" style="border:5px solid black"></img>
 * 단비 계정 로그인
+  + 이메일 계정
 * 단비 화면 둘러보기
 * 단비의 샘플 챗봇 사용해보기
 
