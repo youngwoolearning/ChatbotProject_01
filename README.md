@@ -10,14 +10,16 @@
   + 고등학교 단어 (26개): host, harsh, immediately, signal, slight, mature, risky, region, measure, influence, instinct, inclined, consequence, identify, connection, experiment, instrument, strengthen, adolescent, period, merely, dismiss, phase, insignificant, stage, insight (출처: 능률 고1 영어교과서, Lesson 8, How Teens Make Decisions)
 
 * 각 단어의 자료 수집 및 정리
-  + 항목: 발음, 품사, 의미, 영영풀이, 파생어, 파생전단어, 유의어, 반의어, 다른품사, 숙어, 단어관련이미지, 교과서예문, 예문해석
+  + 항목: 발음, 품사, 의미, 영영풀이, 간단예문, 파생어, 파생전단어, 유의어, 반의어, 다른품사, 숙어, 연어, 시멘틱맵, 단어관련이미지, 교과서예문, 문장성분, 예문해석
   + 위 항목은 필요에 따라 줄이거나 늘릴 수 있습니다.
   + 발음의 경우 발음기호와 함께 단어를 발음한 오디오 파일을 확보합니다.
-  + 단어 자료를 아래한글이나 워드 파일로 작성할 수도 있으나 단어 관련 데이터를 수집하고 활용한다는 측면에서 엑셀 등과 같은 스프레드시트 파일로 작성하는 것을 추천합니다.
+    - [Wiktionary](https://en.wiktionary.org/) 각 단어의 페이지에서 오디오 파일을 확인하고 다운로그 가능합니다.
+    - [Project Shtooka](http://shtooka.net/) 압축된 오디오 파일을 내려받을 수 있습니다.
+  + 단어 자료를 아래한글이나 워드 파일로 작성할 수도 있으나 단어 관련 데이터를 수집하고 활용한다는 측면에서 엑셀과 같은 스프레드시트 파일로 작성하는 것을 추천합니다.
 
 * 각 단어별 객관식 문제 제작
   + 항목: 지시문, 보기1, 보기2, 보기3, 보기4, 틀린보기힌트 3개, 정답, 문제설명, 문제관련추가자료
-  + 객관식 문제가 그렇듯이 지시문과 4개의 보기는 한꺼번에 제시됩니다.
+  + 객관식 문제가 보통 그렇듯이 지시문과 4개의 보기는 한꺼번에 제시됩니다.
   + 틀린 보기를 선택했을 경우 보여줄 수 있는 힌트를 3개 준비합니다. 정답 보기를 선택했을 경우에는 문제설명을 보여줍니다.
   + 문제 관련하여 추가적으로 보여줄 내용이 있으면 관련 자료를 준비합니다.
 
@@ -29,11 +31,11 @@
   + <img src="danbi_01_website.png" width="800" height="289" style="border:5px solid black"></img>
 
 * 단비 계정 로그인
-  + '오늘도 챗봇 키우기' 버튼을 눌러 로그인
+  + '오늘도 챗봇 키우기' 버튼을 눌러 로그인을 합니다.
   + <img src="danbi_02_login.png" width="500" height="276" style="border:5px solid black"></img>
 
 * 단비 화면 둘러보기
-  + 화면 좌측이 메뉴 영역이고, 우측 넓은 영역이 작업 영역입니다. 이 화면에는 제가 이미 만든 챗봇 몇 개가 보이고, '영어단어봇'이 선택된 상태입니다. 
+  + 화면 좌측이 메뉴 영역이고, 우측 넓은 영역이 작업 영역입니다. 캡처한 화면에는 제가 이미 만든 챗봇 몇 개가 보이고 있고, '영어단어봇'이 선택된 상태입니다. 
   + <img src="danbi_03_chatbotlist.png" width="1000" height="451" style="border:5px solid black"></img>
 
 * 단비의 샘플 챗봇 사용해보기
