@@ -1,16 +1,13 @@
 # 영어단어봇 제작
-영어 교과서 본문에 나오는 단어를 학습하는데 도움을 주는 챗봇을 만들어봅니다.
-
-영어단어봇을 실제로 제작하면서 아래 내용이 곧 수정될 예정입니다. (2019-10-14)
+챗봇 제작 실습으로 영어 교과서 본문에 나오는 단어를 학습하는데 도움을 주는 챗봇을 만들어봅니다.
 
 ## 제작 단계
 
-### 영어 단어 준비
+### 영어 단어 자료 준비
 
 * 영어 단어 목록 작성
-  + 중학교 단어 (20개): treatment, drown, rope, breathe, lay, come around, hold on to, insect, try to, upward, pain, check for, injured, wrap, support, keep A from B, worse, aid, accident, bone (출처: 천재 중3 영어교과서, Lesson 9, The ABCs of First Aid) 
-  + 고등학교 단어 (26개): host, harsh, immediately, signal, slight, mature, risky, region, measure, influence, instinct, inclined, consequence, identify, connection, experiment, instrument, strengthen, adolescent, period, merely, dismiss, phase, insignificant, stage, insight (출처: 능률 고1 영어교과서, Lesson 8, How Teens Make Decisions)
-
+  + 중학교 단어 (10개): treatment, drown, rope, breathe, lay, come around, hold on to, insect, try to, upward (출처: 천재 중3 영어교과서, Lesson 9, The ABCs of First Aid) 
+  
 * 각 단어의 자료 수집 및 정리
   + 항목: 발음, 품사, 의미, 영영풀이, 간단예문, 파생어, 파생전단어, 유의어, 반의어, 다른품사, 숙어, 연어, 시멘틱맵, 단어관련이미지, 교과서예문, 문장성분, 예문해석
   + 위 항목은 필요에 따라 줄이거나 늘릴 수 있습니다.
@@ -21,9 +18,7 @@
 
 * 각 단어별 객관식 문제 제작
   + 항목: 지시문, 보기1, 보기2, 보기3, 보기4, 틀린보기힌트 3개, 정답, 문제설명, 문제관련추가자료
-  + 객관식 문제가 보통 그렇듯이 지시문과 4개의 보기는 한꺼번에 제시됩니다.
-  + 틀린 보기를 선택했을 경우 보여줄 수 있는 힌트를 3개 준비합니다. 정답 보기를 선택했을 경우에는 문제설명을 보여줍니다.
-  + 문제 관련하여 추가적으로 보여줄 내용이 있으면 관련 자료를 준비합니다.
+  + 문제 파일(HWP파일): 
 
 ### 단비(챗봇빌더) 사용 준비
 
@@ -44,22 +39,33 @@
   + 위 화면에서 '챗봇 생성하기' 카드를 누르면 아래 화면처럼 여러 샘플 챗봇들이 보입니다. 각 샘플 챗봇에 있는 '체험하기' 버튼을 눌러 챗봇이 어떻게 작동하는지 살펴보면 좋습니다.
   + <img src="danbi_04_samplechatbot.png" width="1000" height="451" style="border:5px solid black"></img>
 
-* 이제 챗봇빌더인 단비에서 챗봇을 만들 수 있는 준비를 마쳤습니다. 이제 챗봇을 만들어보겠습니다.
+* 이제 아래와 같은 과정을 거치면서 챗봇빌더인 단비에서 챗봇을 만들 수 있는 준비를 마쳤습니다. 
+1) 목표 사용자를 위해 만들 챗봇(우리는 영어단어봇)을 정한다.
+2) 챗봇을 만들 수 있는 곳(챗봇빌더 사이트, 단비)으로 간다.
+3) 챗봇빌더 사이트에 로그인한다.
+4) 챗봇 제작에 필요한 요소를 파악한다.
+
+이제 챗봇을 만들어보겠습니다.
 
 ### 챗봇 제작
 
-* 빈 챗봇 생성하기
-* 챗봇 썸네일, 챗봇 이름, 챗봇 카테고리, 챗봇 설명 작성
-* 현재 챗봇 확인과 왼쪽 메뉴 살펴보기
-* 기본 답변 중 Welcome Message, Default Fallback 수정 및 테스트
-* 대화 채널 중 Frogue 테스트 (URL열기)
-* 대화목록 선택
-* 첫 intent 생성
-  + 이름: greeting
-  + 버튼: 영어단어봇 인사 드림
-  + chatflow연결 후 대화흐름 생성 (greeting이라는 대화흐름chatflow가 자동적으로 생성됨)
-* 첫 chatflow (greeting) 수정
-* 기본 답변 중 Welcome Message의 연결 chatflow로 greeting 선택
-* question_01 intent 및 question_01 chatflow 생성
-  + question_01 chatflow 세부 대화흐름 작성
-  + question_01 chatflow 파라미터 설정 및 세팅
+5) 챗봇을 제작한다.
+
+5-1) 챗봇의 초기 설정
+
+5-2) 의도(Intent)와 대화흐름(Chatflow) 작성
+
+5-3) 대화흐름을 이용한 챗봇의 기본답변 수정
+
+5-4) 단어 문제를 위한 의도와 대화흐름 작성 
+
+5-5) 추가적인 의도/대화흐름 작성 및 대화흐름 연결 
+
+6) 아는 사람에게 챗봇 테스트를 부탁한다.
+
+7) 목표 사용자에게 챗봇을 알린다.
+
+8) 챗봇에 대한 사용자의 피드백에 귀 기울인다
+
+9) 다음에 챗봇을 업데이트할 경우를 위해 개선점을 생각해둔다
+
