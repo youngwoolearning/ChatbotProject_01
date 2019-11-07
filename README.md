@@ -18,7 +18,7 @@
 
 * 각 단어별 객관식 문제 제작
   + 항목: 지시문, 보기1, 보기2, 보기3, 보기4, 틀린보기힌트 3개, 정답, 문제설명, 문제관련추가자료
-  + 문제 파일(HWP파일): 
+  + 문제 파일(HWP파일): [EnglishWordQuizMaterials.hwp](EnglishWordQuizMaterials.hwp)
 
 ### 단비(챗봇빌더) 사용 준비
 
